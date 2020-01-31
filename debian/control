@@ -1,0 +1,12 @@
+Source: ros-turbulent-rosidl-generator-cpp
+Section: misc
+Priority: extra
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-turbulent-ament-cmake, ros-turbulent-ament-cmake-gtest, ros-turbulent-ament-lint-auto, ros-turbulent-ament-lint-common, ros-turbulent-rosidl-cmake, ros-turbulent-rosidl-generator-c, ros-turbulent-test-interface-files, ros-turbulent-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-turbulent-rosidl-generator-cpp
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-turbulent-ament-cmake, ros-turbulent-rosidl-cmake, ros-turbulent-rosidl-generator-c, ros-turbulent-rosidl-parser, ros-turbulent-ros-workspace
+Description: Generate the ROS interfaces in C++.
