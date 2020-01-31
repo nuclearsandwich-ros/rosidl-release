@@ -1,0 +1,12 @@
+Source: ros-turbulent-rosidl-cmake
+Section: misc
+Priority: extra
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-turbulent-ament-cmake, ros-turbulent-ament-cmake-python, ros-turbulent-ament-lint-auto, ros-turbulent-ament-lint-common, ros-turbulent-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-turbulent-rosidl-cmake
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python3-empy, ros-turbulent-ament-cmake, ros-turbulent-rosidl-adapter, ros-turbulent-rosidl-parser, ros-turbulent-ros-workspace
+Description: The CMake functionality to invoke code generation for ROS interface files.
