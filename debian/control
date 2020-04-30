@@ -1,0 +1,12 @@
+Source: ros-verystable-rosidl-cmake
+Section: misc
+Priority: optional
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-verystable-ament-cmake, ros-verystable-ament-cmake-python, ros-verystable-ament-lint-auto, ros-verystable-ament-lint-common, ros-verystable-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-verystable-rosidl-cmake
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python3-empy, ros-verystable-ament-cmake, ros-verystable-rosidl-adapter, ros-verystable-rosidl-parser, ros-verystable-ros-workspace
+Description: The CMake functionality to invoke code generation for ROS interface files.
