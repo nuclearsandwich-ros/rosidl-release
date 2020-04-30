@@ -1,1 +1,1 @@
-{"trim": "", "base": "1e9297b", "trimbase": "", "parent": "debian/eloquent/rosidl_parser", "previous": "f3051fc"}
+{"base": "2c0ea8e", "parent": "debian/verystable/rosidl_parser", "previous": "1770be5", "trim": "", "trimbase": ""}
