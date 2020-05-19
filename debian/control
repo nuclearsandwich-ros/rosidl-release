@@ -1,0 +1,12 @@
+Source: ros-testing-rosidl-adapter
+Section: misc
+Priority: optional
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-testing-ament-cmake, ros-testing-ament-cmake-pytest, ros-testing-ament-lint-auto, ros-testing-ament-lint-common, ros-testing-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-testing-rosidl-adapter
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python3-empy, ros-testing-ros-workspace
+Description: API and scripts to parse .msg/.srv/.action files and convert them to .idl.
