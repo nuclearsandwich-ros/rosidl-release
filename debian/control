@@ -1,0 +1,12 @@
+Source: ros-testing-rosidl-parser
+Section: misc
+Priority: optional
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), python3-pytest, ros-testing-ament-cmake, ros-testing-ament-cmake-pytest, ros-testing-ament-lint-auto, ros-testing-ament-lint-common, ros-testing-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-testing-rosidl-parser
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python3-lark, ros-testing-rosidl-adapter, ros-testing-ros-workspace
+Description: The parser for ROS interface files.
